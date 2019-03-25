@@ -1,0 +1,1309 @@
+
+@font-face {
+    font-family:'Venn_Trial_Rg.ttf';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Trial_venn/Venn_Trial_Rg.ttf')
+}
+
+@font-face {
+    font-family:'Venn_Trial_XBd.ttf';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Trial_venn/Venn_Trial_XBd.ttf')
+}
+
+@font-face {
+    font-family:'Venn_Trial_Lt.ttf';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Trial_venn/Venn_Trial_Lt.ttf')
+}
+
+@font-face {
+    font-family:'Venn_Trial_Bd.ttf';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Trial_venn/Venn_Trial_Bd.ttf')
+}
+
+@font-face {
+    font-family:'Venn_Trial_Md.ttf';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Trial_venn/Venn_Trial_Md.ttf')
+}
+
+.backgroundvid
+{
+    background-color: #2100e6;
+    height: 800px;
+    padding-top: 30px;
+}
+
+.icon
+{
+    background-color: #2100e6;
+    margin-top: -140px;
+}
+
+.rowenter
+{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+
+
+
+/*.enterlink:hover
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}*/
+
+#navbar {
+    background-color: #2100e6; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0px; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 2;
+}
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #2100e6;
+    text-align: center;
+/*    margin-top: 10px;*/
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#navbar a:hover {
+    background-color: #2100e6;
+    color: #ffffff;
+}
+
+
+
+.content {
+  min-height: 1200px; 
+}
+
+body
+{
+    background-color: #f9f9f9;
+}
+
+.bkcolourhome
+{
+    background-color: #2100e6;
+}
+
+.bluebox
+{
+    background-color: #2100e6;
+    height: 250px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 24px;
+    text-align: left;
+    display: inline-block;
+}
+
+.getintouchlink
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.getintouchlink:hover
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rowabout1
+{
+    padding-bottom: 134px;
+}
+
+.joshlink 
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.joshlink:hover
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.getintouch
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.rowabout2
+{
+    background-color: #2100e6;
+}
+
+.rowabout3
+{
+    background-color: #2100e6;
+}
+
+.rowabout4
+{
+    background-color: #2100e6;
+}
+
+.rowabout5
+{
+    background-color: #2100e6;
+}
+
+.rowabout6
+{
+    background-color: #2100e6;
+}
+
+.rowabout7
+{
+    background-color: #2100e6;
+}
+
+.rowabout75
+{
+    background-color: #2100e6;
+    padding-left: 70px;
+    margin-top: -100px;
+   
+}
+
+.rowabout8
+{
+    background-color: #2100e6;
+}
+
+.rowabout9
+{
+    background-color: #2100e6;
+}
+
+
+
+
+
+
+.campaign
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sextemberlink 
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #ffffff;
+}
+
+.sextemberlink:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sextember
+{
+    margin-top: -20px;
+}
+
+
+.soapbox
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+.badlymadetealink 
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #ffffff;
+}
+
+.badlymadetealink:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.badlymadetea
+{
+    margin-top: -20px;
+}
+
+.filmtitles
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.beautifulyouthlink 
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #ffffff;
+}
+
+.beautifulyouthlink:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.beautifulyouth
+{
+    margin-top: -20px;
+    margin-bottom: 225px;
+}
+
+.homegraphic
+{
+    margin-top: 105px;
+ /*   background-image: url(../images/graphichome%20.mov);*/
+
+}
+ 
+
+.abouttext1
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 355px;
+}
+
+.abouttext2
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: -150px;
+    padding-bottom: 90px;
+}
+
+.rowabout10 
+{
+    background-color: #2100e6;
+}
+
+
+
+.footer
+{
+    padding-top: 100px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.footer1
+{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Venn_Trial_Lt.ttf';
+    color: #ffffff;
+    
+}
+
+.number
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+}
+
+.footer2
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Venn_Trial_Lt.ttf';
+    color: #ffffff;
+}
+
+.footer3
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Venn_Trial_Lt.ttf';
+    color: #ffffff;
+}
+
+.linkedintext
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.linkedintext:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.behancetext
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.behancetext:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.pdftext
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/*sextember page*/
+.dbstyle
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    
+}
+
+.projects1
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 10px;
+}
+.bkcoloursextember
+{
+    background-color: #2100e6;
+}
+
+.picklegif
+{
+  background-image: url(../images/Sextember_Opening.1.gif);
+
+    height: 800px;
+    background-repeat: no-repeat;
+/*    margin-top: -500px;*/
+
+}
+
+.sextembertitle
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #6d6e71; 
+    padding-top: 229.2px;
+}
+
+.deliverables
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.deliverablescaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.sextemberbody
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #6d6e71;
+    line-height: 30px;
+
+}
+
+.rowsex4
+
+{
+   margin-top: -220px; 
+}
+
+.client
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.clientcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.rowsex5
+
+{
+   /*margin-top: -280px; */
+}
+
+.tool
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.toolcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.date
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.datecaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+/*
+.icongif
+{
+    padding-top: 206.95px;
+}
+*/
+
+.iconsgif
+{
+    background-image: url(../images/iconssextember.gif);
+
+    height: 800px;
+    background-repeat: no-repeat;
+    margin-top: 225px;
+    margin-bottom: 60px;
+}
+
+.img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.sexweb
+{
+    height: 650px;
+    width: 1140px;
+    overflow: scroll;
+}
+
+.mobile
+{
+   display: none;
+}
+
+.merch
+{
+    margin-top: 60px;
+}
+
+.postergif
+{
+    height: 741px;
+}
+
+.condoms
+{
+    height: 350.5px;
+    padding-left: 50px;
+}
+
+.topebag
+{
+    margin-top: -350px;
+    height: 323px;
+    padding-left: 50px;
+    
+}
+
+.postcards
+{
+    background-image: url(../images/sexpostcards.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+/*BADLY MADE TEA PAGE*/
+
+.uc
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #6d6e71;
+    padding-top: 250px;
+}
+
+.bmtbody
+{
+    
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #6d6e71;
+    line-height: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+/*BEAUTIFUL YOUTH PAGE*/
+
+.nervegif
+{
+    background-image: url(../images/beautifulyouthsnip.gif);
+    height: 800px;
+    background-repeat: no-repeat;
+/*    margin-top: -500px;*/
+}
+
+.bytitle
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 68px;
+    color: #6d6e71; 
+    padding-top: 180px;
+}
+
+.bydeliverables
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.bydeliverablescaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.bybody1
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #6d6e71;
+    line-height: 30px;
+
+}
+
+.bybody2
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 24px;
+    color: #6d6e71;
+    line-height: 30px;
+
+}
+
+.byweb
+{
+    margin-bottom:50px;
+}
+.rowby4
+{
+   margin-top: -220px; 
+}
+
+.byclient
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.byclientcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: -100px;
+}
+
+.rowby5
+
+{
+   /*margin-top: -280px; */
+}
+
+.bytool
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.bytoolcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: -30px;
+}
+
+.bydate
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color:#6d6e71;
+}
+
+.bydatecaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.byfilmtitles
+{
+    margin-top: 300px;
+}
+
+.carousel
+{
+    margin-top: 60px;
+}
+
+.img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.byweb
+{
+    height: 640px;
+    width: 1130px;
+    overflow: scroll;
+    margin-top: 60px;
+}
+
+.mobile
+{
+   display: none;
+}
+
+
+
+
+
+
+
+
+/*MOBILE CSS */
+
+@media only screen and (max-width:576px)
+{
+    
+.rowenter
+    {
+        margin-left: 0px;
+        background-image: url(../images/downarrownew.png);
+        background-repeat: no-repeat;
+        margin-top: -450px;
+        
+    }
+
+/*.enterlink
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.enterlink:hover
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}*/
+
+.bluebox
+{
+    height: 500px;
+}
+    
+.joshlink 
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.joshlink:hover
+{
+    font-family: 'Venn_Trial_RG.ttf';
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+    
+.getintouchlink
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 110px;
+}
+
+.getintouchlink:hover
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.downarrow
+    {
+        margin-top: -100px;
+    }
+.bluebox
+{
+    background-color: #2100e6;
+    height: 150px;
+}
+    
+.campaign
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: -50px;
+  
+}
+
+.sextemberlink 
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+
+.sextemberlink:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+  
+}
+    
+.sextember
+{
+    margin-top: -30px;
+    
+}
+
+.soapbox
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+  ;
+}
+
+
+.badlymadetealink 
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+
+.badlymadetealink:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+   
+}
+
+.badlymadetea
+{
+    margin-top: -10px;
+   
+}
+
+.filmtitles
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+
+.beautifulyouthlink 
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #ffffff;
+
+}
+
+.beautifulyouthlink:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.beautifulyouth
+{
+    margin-top: -10px;
+}
+
+.homegraphic
+{
+     display: none;
+}
+    
+.abouttext1
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -255px;
+    line-height: 30px;
+}
+
+.break
+{
+    display: none;
+}
+
+.abouttext2
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+ /*   padding-bottom: 90px;*/
+    line-height: 30px;
+}
+
+.footer
+{
+    margin-top: -80px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.linkedintext
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 16px;
+    color: #2100e6;
+}
+
+.linkedintext:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 16px;
+    color: #2100e6;
+    text-decoration: none;
+}
+
+.behancetext
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 16px;
+    color: #2100e6;
+}
+
+.behancetext:hover
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 16px;
+    color: #2100e6;
+    text-decoration: none;
+}
+
+
+.pdftext
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 16px;
+    color: #2100e6;
+}
+    
+/*sextember mobile*/
+    
+.sextembertitle
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #6d6e71; 
+    margin-top: -150px;
+}
+
+.deliverables
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: 380px;
+}
+
+.deliverablescaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: 400px;
+}
+
+.sextemberbody
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 20px;
+    color: #6d6e71;
+    line-height: 30px;
+    margin-top: -410px;
+    }
+    
+br
+{
+    display: none;
+}
+    
+.rowsex4
+
+{
+   /*margin-top: -220px; */
+}
+
+.client
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: 220px;
+}
+
+.clientcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: 220px;
+}
+
+.rowsex5
+
+{
+   /*margin-top: -280px; */
+}
+
+.tool
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.toolcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.date
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.datecaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+    
+.iconsgif
+{
+    background-image: url(../images/sexiconsmob.gif);
+    height: 248px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+    
+.img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.sexweb
+{
+    height: 190px;
+    width: 312px;
+    overflow: scroll;
+}
+
+.desktop
+{
+    display: none;
+}
+
+.mobile
+{
+    display: block;
+}
+    
+.merch
+{
+    margin-top: 30px;
+}
+
+.postergif
+{
+    height: 417px;
+}
+
+.condoms
+{
+    height: 217px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.topebag
+{
+    margin-top: 30px;
+    height: 200px;
+    margin-left: -50px;
+    
+}
+    
+.postcards
+{
+    background-image: url(../images/postcardmob3.jpg);
+    height: 248;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+    
+.footer1
+    {
+        margin-top: -120px;
+        padding-bottom: 40px;
+        padding-left: 30px
+    }
+    
+.number
+    {
+        font-family: 'Venn_Trial_Lt.ttf';
+        font-size: 16px;
+    }
+    
+.footer2
+{
+ /*   margin-top:  -400px;*/
+    padding-bottom: 35px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.bytitle
+{
+    font-family: 'Venn_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #6d6e71; 
+    padding-top: 100px;
+}
+
+.bydeliverables
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+
+}
+
+.bydeliverablescaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: 550px;
+}
+
+.bybody1
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 20px;
+    color: #6d6e71;
+    line-height: 30px;
+    margin-top: -550px;
+
+}
+
+.bybody2
+{
+    font-family: 'Venn_Trial_Rg.ttf';
+    font-size: 20px;
+    color: #6d6e71;
+    line-height: 30px;
+
+}
+
+.rowby4
+{
+   margin-top: 50px; 
+}
+
+.byclient
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.byclientcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: -50px;
+}
+
+.rowby5
+
+{
+   /*margin-top: -280px; */
+}
+
+.bytool
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.bytoolcaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+    margin-top: -10px;
+}
+
+.bydate
+{
+    font-family: 'Venn_Trial_Lt.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.bydatecaption
+{
+    font-family: 'Venn_Trial_Bd.ttf';
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.byfilmtitles
+{
+    margin-top: 50px;
+}
+    
+.footer3
+    
+{
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
+    padding-left: 30px;
+}  
+    
+
+
+
+
+    
+   
