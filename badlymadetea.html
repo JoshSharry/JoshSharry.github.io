@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
+    
+      <title>Josh</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body>
+      
+      <div id="navbar">
+        <div class="col-1 col-sm-1">
+            <a class="joshlink" href="index.html">Josh</a>
+        </div>
+        
+        <div class="offset-2 col-sm-2 offset-sm-10">
+            <div class="dropdown">
+            <button class="dropbtn">
+                <img src="images/1x/smalldrop.png">
+            </button>
+                <div class="dropdown-content">
+                <a href="sextember.html">
+                    <p class="dbstyle">Sextember</p></a>
+                <a href="badlymadetea.html">
+                     <p class="dbstyle">Badly made tea</p></a>
+                <a href="beautifulyouth.html">
+                     <p class="dbstyle">Beautiful youth</p></a>
+                </div>
+        </div>
+        
+            <style>
+                    .dropbtn {
+                      background-color: #2100e6;
+                      color: white;
+                      font-size: 16px;
+                      border: none;
+                    }
+
+                    .dropdown {
+                      position: relative;
+                      display: inline-block;
+                    }
+
+                    .dropdown-content {
+                      display: none;
+                      position: absolute;
+                      background-color: #2100e6;
+                      min-width: 160px;
+                      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                      z-index: 1;
+                    }
+
+                    .dropdown-content a {
+                      color: black;
+                      padding: 12px 16px;
+                      text-decoration: none;
+                      display: block;
+                    }
+
+                    .dropdown-content a:hover {background-color: #ddd;}
+
+                    .dropdown:hover .dropdown-content {display: block;}
+
+                    .dropdown:hover .dropbtn {background-color: #2100e6;}
+</style>
+        </div>
+    </div>
+        
+    <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    } else {
+    document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+    }
+    </script>
+    
+    <div class="container">
+        
+        <div class="row rowby2">
+            
+                <div class="col-sm-6 offset-sm-5">
+            
+                <h1 class="uc">Nobody's home atm, please call back soon.</h1>
+            
+                </div>
+                
+        </div>
+        
+    </div>
+    
+    <div class="col-12 col-sm-5 offset-sm-5">
+                    
+            <p class="bmtbody">Do try next door Beautiful Youth is home. </p>
+                
+    </div>
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
+        

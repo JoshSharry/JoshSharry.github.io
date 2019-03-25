@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
+    
+    <title>Josh</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,8 +20,290 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>Hello, world! I made a change</h1>
+    <body>
+        
+     <!--   I MANAGED TO GET SOME OF THE GRAPHIC FORM IN THROUGH CODE BUT THIS IS AS FAR AS I GOT AS I TRIED TO MANIPULATE IT BUT IT KEPT CRASHING.-->
+        
+<!--<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.5 599.53">
+  <defs>
+    <style>
+      .a, .c {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        stroke: #3131ff;
+        stroke-miterlimit: 10;
+        stroke-width: 3.89px;
+      }
+    </style>
+    <clipPath id="a">
+      <polygon class="a" points="-75.7 543.03 120.14 613.98 518.51 -64.9 172.37 -4.09 -75.7 543.03"/>
+    </clipPath>
+  </defs>
+  <title>thing</title>
+  <g class="b">
+    <g>
+      <polyline class="c" points="6.28 407.32 76.87 458.56 31.3 571.8 133.38 589.88 260.44 523.91 297.99 589.14"/>
+      <polyline class="c" points="9.65 400.83 80.59 452.29 66.13 490.48 37.82 563.15 135.44 578.9 139.91 579.78 265.63 517.82 301.52 583.14"/>
+      <polyline class="c" points="13.03 394.35 84.3 446.02 70.8 484.08 44.34 554.51 142.03 568.71 146.44 569.67 270.83 511.74 305.05 577.13"/>
+      <polyline class="c" points="16.4 387.86 88.02 439.75 75.48 477.68 50.87 545.86 148.61 558.53 152.97 559.56 276.02 505.65 308.57 571.13"/>
+      <polyline class="c" points="19.78 381.37 91.73 433.48 80.15 471.29 57.39 537.21 155.19 548.34 159.5 549.46 281.22 499.56 312.1 565.12"/>
+      <polyline class="c" points="23.15 374.88 95.44 427.21 84.83 464.89 63.91 528.56 161.78 538.15 166.04 539.35 286.41 493.48 315.63 559.12"/>
+      <polyline class="c" points="26.53 368.4 99.16 420.94 89.5 458.49 70.43 519.91 168.36 527.97 172.57 529.25 291.61 487.39 319.16 553.11"/>
+      <polyline class="c" points="29.9 361.91 102.87 414.67 94.17 452.1 76.95 511.27 174.94 517.78 179.1 519.14 296.8 481.3 322.69 547.11"/>
+      <polyline class="c" points="33.28 355.42 106.58 408.4 98.85 445.7 83.48 502.62 181.52 507.6 185.63 509.03 302 475.21 326.21 541.1"/>
+      <polyline class="c" points="36.65 348.94 110.3 402.13 103.52 439.3 90 493.97 188.1 497.41 192.16 498.93 307.19 469.13 329.74 535.1"/>
+      <polyline class="c" points="40.03 342.45 114.01 395.86 108.2 432.9 96.52 485.32 194.69 487.23 198.7 488.82 312.38 463.04 333.27 529.09"/>
+      <polyline class="c" points="43.4 335.96 117.72 389.59 112.87 426.51 103.04 476.67 201.27 477.04 205.23 478.71 317.58 456.95 336.8 523.09"/>
+      <polyline class="c" points="46.78 329.47 121.44 383.32 117.55 420.11 109.57 468.02 207.85 466.86 211.76 468.61 322.77 450.87 340.33 517.08"/>
+      <polyline class="c" points="50.15 322.99 125.15 377.05 122.22 413.71 116.09 459.38 214.44 456.67 218.29 458.5 327.97 444.78 343.85 511.08"/>
+      <polyline class="c" points="53.53 316.5 128.86 370.78 126.9 407.32 122.61 450.73 221.02 446.48 224.83 448.4 333.16 438.69 347.38 505.07"/>
+      <polyline class="c" points="56.9 310.01 132.58 364.51 131.57 400.92 129.13 442.08 227.6 436.3 231.36 438.29 338.36 432.61 350.91 499.06"/>
+      <polyline class="c" points="60.28 303.52 136.29 358.25 136.25 394.52 135.66 433.43 234.18 426.11 237.89 428.19 343.55 426.52 354.44 493.06"/>
+      <polyline class="c" points="63.65 297.04 140 351.98 140.92 388.13 142.18 424.78 240.77 415.93 244.42 418.08 348.75 420.43 357.96 487.06"/>
+      <polyline class="c" points="67.03 290.55 143.72 345.7 145.59 381.73 148.7 416.13 247.35 405.74 250.95 407.97 353.94 414.35 361.49 481.05"/>
+      <polyline class="c" points="70.4 284.06 147.43 339.44 150.27 375.33 155.22 407.49 253.93 395.56 257.49 397.87 359.13 408.26 365.02 475.04"/>
+      <polyline class="c" points="73.78 277.57 151.15 333.17 154.94 368.93 161.75 398.84 260.51 385.37 264.02 387.76 364.33 402.17 368.55 469.04"/>
+      <polyline class="c" points="77.15 271.09 154.86 326.9 159.62 362.54 168.27 390.19 267.1 375.18 270.55 377.65 369.52 396.09 372.08 463.03"/>
+      <polyline class="c" points="80.53 264.6 158.57 320.63 164.29 356.14 174.79 381.54 273.68 365 277.08 367.55 374.72 390 375.6 457.03"/>
+      <polyline class="c" points="83.9 258.11 162.29 314.36 168.97 349.74 181.31 372.89 280.26 354.81 283.62 357.44 379.91 383.91 379.13 451.02"/>
+      <polyline class="c" points="87.28 251.63 166 308.09 173.64 343.35 187.84 364.25 286.84 344.63 290.15 347.34 385.11 377.83 382.66 445.02"/>
+      <polyline class="c" points="90.65 245.14 169.71 301.82 178.32 336.95 194.36 355.6 293.43 334.44 296.68 337.23 390.3 371.74 386.19 439.01"/>
+      <polyline class="c" points="94.03 238.65 173.43 295.55 182.99 330.55 200.88 346.95 300.01 324.25 303.21 327.12 395.5 365.65 389.72 433.01"/>
+      <polyline class="c" points="97.4 232.16 177.14 289.28 187.66 324.15 207.4 338.3 306.59 314.07 309.74 317.02 400.69 359.57 393.24 427"/>
+      <polyline class="c" points="100.78 225.68 180.85 283.01 192.34 317.76 213.93 329.65 313.17 303.88 316.27 306.91 405.89 353.48 396.77 421"/>
+      <polyline class="c" points="104.15 219.19 184.57 276.74 197.01 311.36 220.45 321 319.76 293.7 322.81 296.81 411.08 347.39 400.3 414.99"/>
+      <polyline class="c" points="107.52 212.7 188.28 270.47 201.69 304.96 226.97 312.36 326.34 283.51 329.34 286.7 416.27 341.31 403.83 408.99"/>
+      <polyline class="c" points="110.9 206.21 191.99 264.2 206.36 298.57 233.49 303.71 332.92 273.33 335.87 276.59 421.47 335.22 407.36 402.98"/>
+      <polyline class="c" points="114.27 199.73 195.71 257.93 211.04 292.17 240.01 295.06 339.5 263.14 342.4 266.49 426.66 329.13 410.88 396.98"/>
+      <polyline class="c" points="117.65 193.24 199.42 251.66 215.71 285.77 246.54 286.41 346.09 252.96 348.94 256.38 431.86 323.05 414.41 390.97"/>
+      <polyline class="c" points="121.02 186.75 203.13 245.39 220.39 279.38 253.06 277.76 352.67 242.77 355.47 246.27 437.05 316.96 417.94 384.96"/>
+      <polyline class="c" points="124.4 180.26 206.85 239.12 225.06 272.98 259.58 269.11 359.25 232.58 362 236.17 442.25 310.87 421.47 378.96"/>
+      <polyline class="c" points="127.77 173.78 210.56 232.85 229.74 266.58 266.1 260.47 365.83 222.4 368.53 226.06 447.44 304.79 424.99 372.95"/>
+      <polyline class="c" points="131.15 167.29 214.28 226.58 234.41 260.18 272.63 251.82 372.42 212.21 375.06 215.96 452.64 298.7 428.52 366.95"/>
+      <polyline class="c" points="134.52 160.8 217.99 220.31 239.09 253.79 279.15 243.17 379 202.03 381.6 205.85 457.83 292.61 432.05 360.94"/>
+      <polyline class="c" points="137.9 154.31 221.7 214.04 243.76 247.39 285.67 234.52 385.58 191.84 388.13 195.74 463.02 286.52 435.58 354.94"/>
+      <polyline class="c" points="141.27 147.83 225.42 207.77 248.43 240.99 292.19 225.87 392.17 181.66 394.66 185.64 468.22 280.44 439.11 348.93"/>
+      <polyline class="c" points="144.65 141.34 229.13 201.5 253.11 234.59 298.72 217.22 398.75 171.47 401.19 175.53 473.41 274.35 442.63 342.93"/>
+      <polyline class="c" points="148.02 134.85 232.84 195.24 257.78 228.2 305.24 208.58 405.33 161.28 407.72 165.43 478.61 268.26 446.16 336.92"/>
+      <polyline class="c" points="151.4 128.37 236.56 188.97 262.46 221.8 311.76 199.93 411.91 151.1 414.26 155.32 483.8 262.18 449.69 330.92"/>
+      <polyline class="c" points="154.77 121.88 240.27 182.7 267.13 215.4 318.28 191.28 418.5 140.91 420.79 145.21 489 256.09 453.22 324.91"/>
+      <polyline class="c" points="158.15 115.39 243.98 176.43 271.81 209.01 324.81 182.63 425.08 130.73 427.32 135.11 494.19 250 456.75 318.91"/>
+      <polyline class="c" points="161.52 108.9 247.7 170.16 276.48 202.61 331.33 173.98 431.66 120.54 433.85 125 499.39 243.92 460.27 312.9"/>
+      <polyline class="c" points="164.9 102.42 251.41 163.89 281.16 196.21 337.85 165.34 438.24 110.36 440.38 114.89 504.58 237.83 463.8 306.9"/>
+      <polyline class="c" points="168.27 95.93 255.13 157.62 285.83 189.82 344.37 156.69 444.83 100.17 446.92 104.79 509.77 231.74 467.33 300.89"/>
+      <polyline class="c" points="171.65 89.44 258.84 151.35 290.5 183.42 350.89 148.04 451.41 89.98 453.45 94.68 514.97 225.66 470.86 294.88"/>
+      <polyline class="c" points="175.02 82.95 262.55 145.08 295.18 177.02 357.42 139.39 457.99 79.8 459.98 84.58 520.16 219.57 474.38 288.88"/>
+      <polyline class="c" points="178.4 76.47 266.26 138.81 299.85 170.63 363.94 130.74 464.57 69.61 466.51 74.47 525.36 213.48 477.91 282.87"/>
+      <polyline class="c" points="181.77 69.98 269.98 132.54 304.53 164.23 370.46 122.09 471.16 59.43 473.05 64.36 530.55 207.4 481.44 276.87"/>
+      <polyline class="c" points="185.15 63.49 273.69 126.27 309.2 157.83 376.99 113.45 477.74 49.24 479.58 54.26 535.75 201.31 484.97 270.86"/>
+      <polyline class="c" points="188.52 57 277.41 120 313.88 151.43 383.51 104.8 484.32 39.06 486.11 44.15 540.94 195.22 488.5 264.86"/>
+      <polyline class="c" points="191.9 50.52 281.12 113.73 318.55 145.04 390.03 96.15 490.9 28.87 492.64 34.05 546.14 189.14 492.02 258.85"/>
+      <polyline class="c" points="195.27 44.03 284.83 107.46 323.23 138.64 396.55 87.5 497.49 18.68 499.17 23.94 551.33 183.05 495.55 252.85"/>
+      <polyline class="c" points="198.64 37.54 288.55 101.19 327.9 132.24 403.07 78.85 504.07 8.5 505.71 13.83 556.53 176.96 499.08 246.84"/>
+      <polyline class="c" points="202.02 31.05 292.26 94.92 332.57 125.84 409.6 70.2 510.65 -1.69 512.24 3.73 561.72 170.88 502.61 240.84"/>
+      <polyline class="c" points="205.39 24.57 295.97 88.65 337.25 119.45 416.12 61.56 517.24 -11.87 518.77 -6.38 566.91 164.79 506.13 234.83"/>
+      <polyline class="c" points="208.77 18.08 299.69 82.38 341.92 113.05 422.64 52.91 523.82 -22.06 525.3 -16.48 572.11 158.7 509.66 228.83"/>
+      <polyline class="c" points="212.14 11.59 346.6 106.65 530.4 -32.24 577.3 152.62 513.19 222.82"/>
+    </g>
+  </g>
+</svg>-->
+        
+
+        <div class="container-fluid backgroundvid">
+            
+            <div align="center" class="embed-responsive embed-responsive-16by9">
+                
+                <video class="embed-responsive-item nomobile" autoplay muted>
+                <source src="images/Name_Test_3-.mp4" type=video/mp4>
+                </video>
+                
+            </div>
+            
+            
+            
+        </div> <!--closing container-->
+         <a id="scroll1"> 
+        <div class="container-fluid icon">
+        
+             <div class="row rowenter">
+            
+                <div class="col-3 offset-4 col-sm-4 offset-sm-5">
+                
+                    <a class="downarrow" href="#scroll1" ><img src="images/1x/dwnarrowsmaller1.png"></a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+        
+            <div class="row bluebox">
+            </div>
+            
+            <div class="row rowabout2">
+            
+                <div class="col-6 col-sm-2 offset-sm-5 campaign">Campaign</div>
+            
+            </div> <!--closing row2-->
+            
+            
+            <div class="row rowabout3">
+            
+                <div class="col-9 col-sm-5 offset-sm-5 sextember">
+                    <a class="sextemberlink" href="sextember.html">Sextember</a></div>
+                </div>
+            
+            
+             <div class="row rowabout4">
+            
+                <div class="col-sm-2 offset-sm-5 soapbox">Soapbox</div>
+            
+            </div> <!--closing row4-->
+            
+            
+            <div class="row rowabout5">
+            
+                <div class="col-sm-6 offset-sm-5 badlymadetea">
+                    <a class="badlymadetealink" href="badlymadetea.html">Badly made tea</a>
+                </div>
+            
+            </div> <!--closing row5-->
+            
+            
+            <div class="row rowabout6">
+            
+                <div class="col-sm-2 offset-sm-5 filmtitles">Film titles</div>
+            
+            </div> <!--closing row6-->
+                
+           
+            
+            <div class="row rowabout7">
+            
+                <div class="col-sm-6 offset-sm-5 beautifulyouth">
+                    <a class="beautifulyouthlink" href="beautifulyouth.html">Beautiful youth</a>
+                </div>
+            
+            </div> <!--closing row7-->
+          
+             <div class="row rowabout75">
+            
+                <div class="col-3 offset-3 col-sm-4 offset-sm-5">
+                
+                    <a class="downarrow" href="#scroll2" ><img src="images/1x/dwnarrowsmaller1.png" ></a>
+                    
+                </div>
+                
+            </div>
+    
+        
+        </div> <!--closing container-fluid-->
+             </a>
+      <a id="scroll2"> 
+        <div class="container-fluid">
+        
+            <div class="row rowabout8">
+                
+                <div class="col-sm-3 offset-sm-1  homegraphic">
+                
+       
+                    
+                    <a class="homestatic"> <img src="images/1x/statichome1.png">  </a>
+          
+                    
+                
+                </div>
+                
+                    
+                <div class="col-12 col-sm-6 offset-sm-1 abouttext1">
+                    <p>I’m Josh, A designer with character and incentive <br class="break"> I enjoy collaborating on projects and look forward<br>to the challenges of a new creative brief. I enjoy using bold colours. I love all aspects of design but<br> my passion lies within spatial and editorial design.</p>
+                </div>
+                
+            </div>
+            
+            <div class="row rowabout9">
+            
+                <div class="col-12 col-sm-6 offset-sm-5 abouttext2">
+                    <p>I am currently a student in Visual Communication Design at IADT Dun Laoghaire. I’m currently<br class="break">in my final year (woo) Please feel free to explore<br>my website which I designed and coded.<br></p>
+                </div>
+            
+            
+            </div>
+        
+        
+        
+        </div>
+        </a> 
+      
+        <div class="container-fluidfooter">
+            
+         
+            
+            <div class="row rowabout10 footer1">
+            
+                <div class="col-1 col-sm-2 offset-sm-1">
+                <a class="phoneno">Call <span class="number">0831981005</span></a></div>
+                
+                <div class="col-1 offset-1 col-sm-3">Email joshsharry@hello.ie</div>
+                
+                <div class="col-1 offset-4 col-sm-1 offset-sm-1">
+                
+                <a class="linkedinlogo" href="https://www.linkedin.com/in/josh-sharry-bb790412a/"  target="_blank"><img src="images/1x/instasmall.png"></a>
+                
+                </div>
+                
+                <div class="col-1 col-sm-1 ">
+
+                
+                <a class="linkedinlogo" href="https://www.linkedin.com/in/josh-sharry-bb790412a/"  target="_blank"><img src="images/1x/linkedinlogosmaller.png"></a>
+                
+                </div>
+                
+                 <div class="col-1 col-sm-1 ">
+                
+                <a class="linkedinlogo" href="https://www.behance.net/joshuagregbed4"  target="_blank"><img src="images/1x/behancesmall.png"></a>
+                
+                </div>
+                
+                
+            </div>
+            
+            
+        </div>
+
+        <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
